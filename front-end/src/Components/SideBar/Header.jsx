@@ -7,7 +7,7 @@ const Header = (props) => {
         />
         <div className="pe-1">
           <img className="addIcon" src={props.addIcon} alt="plus-icon"
-            title="Add new conversation"
+            title="Add new conversation" role="button" data-bs-toggle="modal" data-bs-target="#searchUser"
           />
         </div>
       </div>

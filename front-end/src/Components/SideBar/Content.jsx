@@ -5,7 +5,7 @@ const Content = (props) => {
           <div className="profile-pic-container">
               <img src={props.demoImage} alt="" />
           </div>
-          <div className="info-container d-flex flex-column w-100 align-items-start justify-content-center">
+          <div className="info-container d-flex flex-column align-items-start justify-content-center">
               <div className="name">Ali Zain</div>
               <div className="last-message">Last Message</div>
           </div>
