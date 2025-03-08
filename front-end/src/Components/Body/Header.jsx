@@ -20,9 +20,10 @@ const Header = () => {
                 <i className="bi bi-three-dots-vertical fw-bold text-white pointer" data-bs-toggle="dropdown" aria-expanded="false"></i>
                 {/* Dropdown list */}
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                    <li><button className="dropdown-item">Report</button></li>
+                    <li><button className="dropdown-item">Block</button></li>
+                    <li><button className="dropdown-item">Clear Chat</button></li>
+                    <li><button className="dropdown-item">Export Chat</button></li>
                 </ul>
                 {/* Dropdown list */}
             </div>

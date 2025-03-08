@@ -39,11 +39,10 @@ const ChatTools = () => {
 
   return (
     <div className="chat-tools">
-        <div className="d-flex gap-3">
-            <textarea name="" className="textarea form-control" ref={messageRef} value={message} onChange={(e) => setMessage(e.target.value)} onKeyDown={keydownfunc} placeholder="Type a message"/>
-            <button type="button" className='btn send-message-btn rounded-circle' onClick={handleSendMessage}><i className="bi bi-send-fill text-white"></i></button>
-        </div>
-        
+      <div className="d-flex gap-3">
+        <textarea name="" className="textarea form-control" ref={messageRef} value={message} onChange={(e) => setMessage(e.target.value)} onKeyDown={keydownfunc} placeholder="Type a message"/>
+        <button type="button" className='btn send-message-btn rounded-circle px-3' onClick={handleSendMessage}><i className="bi bi-send-fill text-white"></i></button>
+      </div>
     </div>
   )
 }
